@@ -1,0 +1,25 @@
+{
+  "name": "wsdl-to-swaggerdoc",
+  "version": "1.0.0",
+  "description": "tool to generate wsdl service doc to swagger doc yaml file",
+  "main": "main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swagger",
+    "wsdl",
+    "api",
+    "apidoc"
+  ],
+  "author": "Hemanth",
+  "license": "ISC",
+  "dependencies": {
+    "apiconnect-wsdl": "^1.8.31",
+    "file-system": "^2.2.2",
+    "js-yaml": "^3.14.1"
+  }
+}
